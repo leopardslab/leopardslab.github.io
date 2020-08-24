@@ -31,6 +31,7 @@ const HomePage = () => {
         buttonText={headerSection.buttonText}
         buttonLink={headerSection.buttonLink}
         image={headerSection.image}
+        backgroundColor={"#ffedf7"}
       />
       <DescriptionContainer
         title={aboutSection.title}

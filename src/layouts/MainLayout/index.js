@@ -16,6 +16,7 @@ const MainLayout = ({ children }) => {
         <NavBar 
           logo={navigationBarData.logo}
           links={navigationBarData.pages}
+          logoStyle={{ width: 150 }}
         />
         <div className="content-area">
           {children}

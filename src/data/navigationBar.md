@@ -1,7 +1,7 @@
 ---
 template: 'navigationBar'
 
-logo: /logos/main-logo.jpeg
+logo: /logos/main-logo.png
 pages:
   - name: Home
     path: /

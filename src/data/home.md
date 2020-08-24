@@ -2,12 +2,12 @@
 template: 'home'
 
 headerSecton:
-  mainText: WELCOME TO SCoRe LAB
+  mainText: WELCOME TO Leopards Lab
   subText: 
-    The SCoRe Lab has conducted research covering various aspects of sensor networks, embeded systems, digital forensic, information security, mobile applications, cloud, blockchain and software tools.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis nisi massa, ac consectetur tellus dapibus eget. Sed congue ligula lorem, at pharetra odio laoreet sed. Ut tincidunt pellentesque porttitor.
   buttonText: EXPLORE
   buttonLink: /projects
-  image: /images/community.png
+  image: /logos/logo-secondary.png
 
 aboutSection:
   title: About Us
