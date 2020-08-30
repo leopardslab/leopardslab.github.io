@@ -8,16 +8,15 @@ import {SEO, Header, MediumFeed} from '../../Webiu'
 const BlogPage = () => {
   return (
     <MainLayout>
-      <SEO title="Score Labs Blog Page" />
+      <SEO title="Leopards Labs Blog Page" />
       <Header 
         mainText="Blog"
-        backgroundColor={'#edffe2'}
         icon={faBlog}
         small
       />
       <br />
       <MediumFeed 
-        mediumUrl={"https://medium.com/feed/scorelab"}
+        mediumUrl={"https://medium.com/feed/leopards-lab"}
       />
     </MainLayout>
   )

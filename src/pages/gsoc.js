@@ -26,7 +26,6 @@ const GsocPage = () => {
       <Header 
         mainText={gsoc.title}
         icon={faSun}
-        backgroundColor={'#fff8e4'}
         small
       />
       <DescriptionContainer

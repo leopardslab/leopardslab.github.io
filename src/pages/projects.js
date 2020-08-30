@@ -27,7 +27,6 @@ const ProjectsPage = () => {
       <SEO title="Score Labs Projects Page" />
       <Header 
         mainText="Projects"
-        backgroundColor={'#edffe2'}
         icon={faCode}
         small
       />
