@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{GhMY:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return u})),n.d(e,"postQuery",(function(){return i}));var r=n("q1tI"),a=n.n(r),o=n("jfxn"),c=n("8bOL");function u(t){var e=t.data.markdownRemark.frontmatter;return a.a.createElement(o.a,null,a.a.createElement(c.p,{title:"Leopards Labs "+e.title+" Project"}),a.a.createElement(c.n,{project:e}))}var i="1233456436"}}]);
+//# sourceMappingURL=component---src-templates-project-js-415aa55381a3fd9d1746.js.map

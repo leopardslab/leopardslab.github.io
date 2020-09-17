@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{vx99:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),l=t.n(n),r=t("jfxn"),c=t("wHSu"),m=t("8bOL");a.default=function(){return l.a.createElement(r.a,null,l.a.createElement(m.p,{title:"Leopards Labs Blog Page"}),l.a.createElement(m.f,{mainText:"Blog",icon:c.b,small:!0}),l.a.createElement("br",null),l.a.createElement(m.k,{mediumUrl:"https://medium.com/feed/leopards-lab"}))}}}]);
+//# sourceMappingURL=component---src-pages-blog-js-466c83bac8914fcbf9cf.js.map
