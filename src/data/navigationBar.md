@@ -7,14 +7,15 @@ pages:
     path: /
   - name: Projects
     path: /projects
-  - name: Publications
-    path: /publications
   - name: Team
     path: /team
   - name: Opportunities
     path: /opportunities
   - name: Blog
     path: /blog
+  - name: Github
+    path: https://github.com/leopardslab
+    isExternal: true
   - name: GSOC 2020
     path: /gsoc
     isSpecial: true

@@ -10,14 +10,6 @@ export const useFooterData = () => {
               id
               frontmatter {
                 mainText
-                socialLinks {
-                  facebook
-                  gitter
-                  twitter
-                  github
-                  linkedin
-                  medium
-                }
               }
             }
           }

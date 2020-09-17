@@ -24,7 +24,7 @@ const ProjectsPage = () => {
 
   return (
     <MainLayout>
-      <SEO title="Score Labs Projects Page" />
+      <SEO title="Leopards LabsProjects Page" />
       <Header 
         mainText="Projects"
         icon={faCode}

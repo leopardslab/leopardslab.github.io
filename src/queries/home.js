@@ -23,21 +23,6 @@ export const useHomePageData = () => {
                 }
                 projectsSection {
                   title
-                  projects {
-                    title
-                    description
-                    image
-                    slug
-                  }
-                }
-                publicationsSection {
-                  title
-                  publications {
-                    title
-                    conference
-                    authors
-                    slug
-                  }
                 }
                 contactSection {
                   contactMessage

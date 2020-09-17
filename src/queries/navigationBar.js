@@ -14,6 +14,7 @@ export const useNavigationBarData = () => {
                   name
                   path
                   isSpecial
+                  isExternal
                 }
               }
             }

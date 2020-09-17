@@ -1,2 +1,2 @@
-# Score Lab Website
+# Leopards Lab Website
 Built with Gatsby Js + WEBIU

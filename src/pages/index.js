@@ -1,5 +1,7 @@
 import React from "react"
 import {useHomePageData} from "../queries/home"
+import {useProjectsPageData} from "../queries/projects"
+import {useContactInfoData} from "../queries/contactInfo"
 import MainLayout from "../layouts/MainLayout"
 
 // WEBIU Components
@@ -9,22 +11,25 @@ import {
   DescriptionContainer, 
   MediumFeed, 
   ProjectsList, 
-  PublicationsList, 
   Contact, 
+  GitterRoomsList, 
+  MailingListFeed 
 } from '../../Webiu'
 
-
 const HomePage = () => {
-  const frontmatter = useHomePageData()
-  const headerSection = frontmatter.headerSecton
-  const aboutSection = frontmatter.aboutSection
-  const projectsSection = frontmatter.projectsSection
-  const publicationsSection = frontmatter.publicationsSection
-  const contactSection = frontmatter.contactSection
+  const homeData = useHomePageData()
+  const projectsData = useProjectsPageData()
+  const contactInfoData = useContactInfoData()
+
+  const headerSection = homeData.headerSecton
+  const aboutSection = homeData.aboutSection
+  const projectsSection = homeData.projectsSection
+  const contactSection = homeData.contactSection
+  const projects = projectsData.map(edge => ({ id: edge.node.id, ...edge.node.frontmatter}))
 
   return (
     <MainLayout>
-      <SEO title="Score Labs Home Page" />
+      <SEO title="Leopards Labs Home Page" />
       <Header 
         mainText={headerSection.mainText}
         subText={headerSection.subText}
@@ -46,18 +51,27 @@ const HomePage = () => {
       />
       <ProjectsList 
         title={projectsSection.title}
-        items={projectsSection.projects}
+        items={projects}
         limit={6}
+        suffle
       />
-      <PublicationsList 
-        title={publicationsSection.title}
-        items={publicationsSection.publications}
-        limit={4}
+      <br />
+      <GitterRoomsList 
+        title={contactInfoData.gitterRoomsListHeading}
+        gitterOrganizationName={contactInfoData.gitterOrganizationName}
+        gitterToken={contactInfoData.gitterToken}
       />
-      <Contact 
-        contactMessage={contactSection.contactMessage}
-        subscribeMessage={contactSection.subscribeMessage}
+      <MailingListFeed 
+        title={contactInfoData.mailingListHeading}
+        feedUrl={contactInfoData.mailingListFeedUrl}
       />
+      <br /><br /><br />
+      {/** 
+        <Contact 
+          contactMessage={contactSection.contactMessage}
+          subscribeMessage={contactSection.subscribeMessage}
+        />
+      */}
     </MainLayout>
   )
 }

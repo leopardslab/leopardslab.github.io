@@ -12,7 +12,7 @@ export default function ProjectTemplate({data}) {
 
   return (
     <MainLayout>
-      <SEO title={`Score Labs ${project.title} Project`} />
+      <SEO title={`Leopards Labs ${project.title} Project`} />
       <ProjectDetail 
         project={project}
       />

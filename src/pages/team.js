@@ -15,17 +15,17 @@ const TeamPage = () => {
 
   return (
     <MainLayout>
-      <SEO title="Score Labs Team Page" />
+      <SEO title="Leopards Labs Team Page" />
       <Header 
         mainText={team.title}
         icon={faUsers}
         small
       />
       <Team 
-        heads={team.heads}
         researchers={team.researchers}
         alumni={team.alumni}
       />
+      <br /><br />
     </MainLayout>
   )
 }

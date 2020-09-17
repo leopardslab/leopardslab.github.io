@@ -4,6 +4,7 @@ import { navigate } from "gatsby"
 import { faSun } from "@fortawesome/free-solid-svg-icons";
 import MainLayout from "../layouts/MainLayout"
 import { useGsocData } from '../queries/gsoc'
+import { useContactInfoData } from "../queries/contactInfo";
 
 // WEBIU Components
 import {
@@ -19,10 +20,11 @@ import {
 
 const GsocPage = () => {
   const gsoc = useGsocData()
+  const contactInfoData = useContactInfoData()
   
   return (
     <MainLayout>
-      <SEO title="Score Labs GSOC Page" />
+      <SEO title="Leopards LabsGSOC Page" />
       <Header 
         mainText={gsoc.title}
         icon={faSun}
@@ -49,14 +51,14 @@ const GsocPage = () => {
       />
       <br />
       <MailingListFeed 
-        title={gsoc.mailingListHeading}
-        feedUrl={gsoc.mailingListFeedUrl}
+        title={contactInfoData.mailingListHeading}
+        feedUrl={contactInfoData.mailingListFeedUrl}
       />
       <br />
       <GitterRoomsList 
-        title={gsoc.gitterRoomsListHeading}
-        gitterOrganizationName={gsoc.gitterOrganizationName}
-        gitterToken={gsoc.gitterToken}
+        title={contactInfoData.gitterRoomsListHeading}
+        gitterOrganizationName={contactInfoData.gitterOrganizationName}
+        gitterToken={contactInfoData.gitterToken}
       />
       <br />
       <ButtonWithHeading 

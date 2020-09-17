@@ -9,6 +9,7 @@ import {
   SEO,
   Header, 
   DescriptionContainer,
+  JobOpenings
 } from '../../Webiu'
 
 const OpportunitiesPage = () => {
@@ -16,7 +17,7 @@ const OpportunitiesPage = () => {
 
   return (
     <MainLayout>
-      <SEO title="Score Labs Opportunities Page" />
+      <SEO title="Leopards LabsOpportunities Page" />
       <Header 
         mainText={opportunities.title}
         icon={faPeopleArrows}
@@ -53,7 +54,17 @@ const OpportunitiesPage = () => {
             />
           </Col>
         </Row>
+        <br /><hr /><br />
+        <Row>
+          <Col>
+            <JobOpenings
+              title={opportunities.section3.heading}
+              openings={opportunities.section3.openings}
+            />
+          </Col>
+        </Row>
       </Container>
+      <br /><br />
     </MainLayout>
   )
 }

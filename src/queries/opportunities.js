@@ -27,6 +27,14 @@ export const useOpportunitiesData = () => {
                     description
                   }
                 }
+                section3 {
+                  heading
+                  openings {
+                    title
+                    description
+                    skillRequirements
+                  }
+                }
               }
             }
           }
