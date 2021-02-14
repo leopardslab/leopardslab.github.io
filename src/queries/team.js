@@ -10,11 +10,7 @@ export const useTeamData = () => {
               id
               frontmatter {
                 title
-                researchers {
-                  name
-                  title
-                }
-                alumni {
+                contributors {
                   name
                   title
                 }

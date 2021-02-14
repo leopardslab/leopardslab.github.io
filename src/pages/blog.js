@@ -1,9 +1,10 @@
 import React from "react"
 import MainLayout from "../layouts/MainLayout"
 import { faBlog } from "@fortawesome/free-solid-svg-icons"
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
-import {SEO, Header, MediumFeed} from '../../Webiu'
+import {Header, MediumFeed} from '../../Webiu'
 
 const BlogPage = () => {
   return (

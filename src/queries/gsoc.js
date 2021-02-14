@@ -24,6 +24,17 @@ export const useGsocData = () => {
                 projectListHeading
                 projectListButtonText
                 projectListUrl
+
+                ideaListHeading
+                ideaListDescription
+                ideaList {
+                  title
+                  description
+                  expectedresults
+                  githuburl
+                  requiredknowledge
+                  possiblementors
+                }
               }
             }
           }

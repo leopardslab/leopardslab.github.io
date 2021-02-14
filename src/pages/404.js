@@ -1,9 +1,10 @@
 import React from "react"
 import MainLayout from "../layouts/MainLayout"
 import { usePageNotFoundData } from "../queries/404"
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
-import {SEO, PageNotFound} from '../../Webiu'
+import {PageNotFound} from '../../Webiu'
 
 const NotFoundPage = () => {
   const frontmatter = usePageNotFoundData()

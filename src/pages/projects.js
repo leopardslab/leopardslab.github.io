@@ -2,10 +2,10 @@ import React, { useState } from "react"
 import MainLayout from "../layouts/MainLayout"
 import {useProjectsPageData} from '../queries/projects'
 import { faCode } from "@fortawesome/free-solid-svg-icons"
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
 import {
-  SEO,
   Header, 
   ProjectsList,
   ListPagination,

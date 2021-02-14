@@ -3,10 +3,10 @@ import {useHomePageData} from "../queries/home"
 import {useProjectsPageData} from "../queries/projects"
 import {useContactInfoData} from "../queries/contactInfo"
 import MainLayout from "../layouts/MainLayout"
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
 import {
-  SEO,
   Header, 
   DescriptionContainer, 
   MediumFeed, 

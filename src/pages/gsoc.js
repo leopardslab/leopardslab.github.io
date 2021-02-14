@@ -5,17 +5,18 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 import MainLayout from "../layouts/MainLayout"
 import { useGsocData } from '../queries/gsoc'
 import { useContactInfoData } from "../queries/contactInfo";
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
 import {
-  SEO,
   Header, 
   DescriptionContainer, 
   LinksList, 
   MailingListFeed, 
   GuideLines, 
   ButtonWithHeading, 
-  GitterRoomsList
+  GitterRoomsList,
+  GsocIdeaList
 } from '../../Webiu'
 
 const GsocPage = () => {
@@ -43,6 +44,12 @@ const GsocPage = () => {
           </Col>
         </Row>
       </Container>
+      <br />
+      <GsocIdeaList 
+        heading={gsoc.ideaListHeading}
+        description={gsoc.ideaListDescription}
+        listItems={gsoc.ideaList}
+      />
       <br />
       <GuideLines 
         heading={gsoc.guidelinesHeading}

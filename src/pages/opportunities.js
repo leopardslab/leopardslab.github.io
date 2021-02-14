@@ -3,10 +3,10 @@ import MainLayout from "../layouts/MainLayout"
 import { Row, Container, Col } from "react-bootstrap"
 import {useOpportunitiesData} from '../queries/opportunities'
 import { faPeopleArrows } from "@fortawesome/free-solid-svg-icons"
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
 import {
-  SEO,
   Header, 
   DescriptionContainer,
   JobOpenings

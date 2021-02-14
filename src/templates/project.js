@@ -1,9 +1,9 @@
 import React from 'react';
 import MainLayout from '../layouts/MainLayout';
+import {SEO} from '../components/SEO'
 
 // WEBIU Components
 import {
-  SEO, 
   ProjectDetail,
 } from '../../Webiu'
 

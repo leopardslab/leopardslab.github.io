@@ -21,7 +21,17 @@ guidelines:
   - Lets Talk! The best way to solve problems that you might have is to contact our mentors and also our community.
   - We encourage you to do documentation so that we can keep track of your progress and also help you if things are not going according to plan. Although not compulsory we have a strong belief that this method can cut down your time to code and also the workload of the mentors drastically.
 
-projectListHeading: Project list for GSoC 2020
+projectListHeading: Leopards Lab Project List
 projectListButtonText: View Project List
 projectListUrl: /projects
+
+ideaListHeading: Idea List for 2021
+ideaListDescription: The following is the idea list for Google Summer of Code 2021
+ideaList:
+  - title: Idea 1
+    description: Idea 1 Description
+    expectedresults: Idea 1 Expected Results
+    githuburl: https://github.com/leopardslab
+    requiredknowledge: Idea 1 Required Knowledge
+    possiblementors: Idea 1 Possible Mentors
 ---
