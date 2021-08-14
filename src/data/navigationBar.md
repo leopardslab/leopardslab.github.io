@@ -1,5 +1,5 @@
 ---
-template: 'navigationBar'
+template: "navigationBar"
 
 logo: /logos/main-logo.png
 pages:
@@ -16,7 +16,7 @@ pages:
   - name: Github
     path: https://github.com/leopardslab
     isExternal: true
-  - name: GSOC 2020
+  - name: GSOC 2021
     path: /gsoc
     isSpecial: true
 ---

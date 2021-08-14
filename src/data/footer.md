@@ -1,6 +1,5 @@
 ---
-template: 'footer'
+template: "footer"
 
-mainText: © Copyright 2020 Leopards Lab
-
+mainText: © Copyright 2021 Leopards Lab
 ---

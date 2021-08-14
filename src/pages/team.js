@@ -23,6 +23,8 @@ const TeamPage = () => {
       />
       <Team 
         contributors={team.contributors}
+        researchers={team.researchers}
+        alumni={team.alumni}
       />
       <br /><br />
     </MainLayout>
