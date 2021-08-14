@@ -10,8 +10,7 @@ import {
   Header, 
   DescriptionContainer, 
   MediumFeed, 
-  ProjectsList, 
-  Contact, 
+  ProjectsList,
   GitterRoomsList, 
   MailingListFeed 
 } from '../../Webiu'
@@ -24,7 +23,6 @@ const HomePage = () => {
   const headerSection = homeData.headerSecton
   const aboutSection = homeData.aboutSection
   const projectsSection = homeData.projectsSection
-  const contactSection = homeData.contactSection
   const projects = projectsData.map(edge => ({ id: edge.node.id, ...edge.node.frontmatter}))
 
   return (
@@ -66,12 +64,6 @@ const HomePage = () => {
         feedUrl={contactInfoData.mailingListFeedUrl}
       />
       <br /><br /><br />
-      {/** 
-        <Contact 
-          contactMessage={contactSection.contactMessage}
-          subscribeMessage={contactSection.subscribeMessage}
-        />
-      */}
     </MainLayout>
   )
 }

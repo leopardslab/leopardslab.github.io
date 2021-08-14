@@ -14,6 +14,14 @@ export const useTeamData = () => {
                   name
                   title
                 }
+                researchers {
+                  name
+                  title
+                }
+                alumni {
+                  name
+                  title
+                }
               }
             }
           }

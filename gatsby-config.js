@@ -4,6 +4,7 @@ module.exports = {
     description: `Leopards Lab Website`,
     author: `@LeopardsLab`,
   },
+  pathPrefix: "/leopardslab.github.io" || "/",
   plugins: [
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-sass`,
